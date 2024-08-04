@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-image: url('Pictures/backRound.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #f3f3f3;
+}
+#main-container{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10%;
+}
+#log-in-div{
+    background-color: orange;
+    width: 60%;
+    height: fit-content;
+    display: flex;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px 0px black;
+}
+#login-div1{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 50%;
+    gap: 20px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#top-text{
+    color: white;
+}
+.button-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+.login-button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+#secont-text{
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    
+}
+
+form{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.input-fiels{
+    height: 35px;
+    border-radius: 17.5px;
+    padding-left: 10px;
+    outline: 0cap;
+    border: 0px;
+    box-shadow: 2px 2px 4px 0px black;
+}
+#submit-button{
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    border: 0px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.448);
+}
+#submit-button:hover{
+    background-color: red;
+    color: white;
+    font-weight: 600;
+}
+#login-div2{
+    width: 50%;
+}
+#greating{
+    padding: 12%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+#greating h1{
+    font-size: xx-large;
+}
+#greating p{
+    font-size: larger;
+    text-align: justify;
+}
+@media screen and (max-width: 900px){
+    #login-div2{
+        display: none;
+    }
+    #login-div1{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 400px){
+    #log-in-div{
+        width: 100%;
+    }
+}
